@@ -7,3 +7,6 @@ Hello *world*
 """)
 
 st.text_input('Digite o seu nome: ')
+st.write ("""
+Que nome maneiro!
+""")

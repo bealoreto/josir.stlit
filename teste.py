@@ -6,5 +6,6 @@ st.write("""
 Hello *world*
 """)
 
-st.text_input('Digite o seu nome: ')
-st.write ('Que nome maneiro!')
+nome = st.text_input('Digite o seu nome: ')
+if nome > 0:
+  st.write ('Que nome maneiro!')
